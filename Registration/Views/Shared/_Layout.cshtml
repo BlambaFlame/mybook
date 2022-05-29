@@ -1,9 +1,10 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Ищете что почитать? 📚 Все самые интересные книги собраны в электронной библиотеке MyBook!</title>
+    <link rel="icon" href="32ico.png" size ="16x16 32x32" type="image/png">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css"/>
 </head>
@@ -20,10 +21,10 @@
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Library">Home</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Library">Библиотека</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Subscription">Privacy</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Subscription">Подписка</a>
                     </li>
                 </ul>
                 <partial name="_LoginPartial"/>
@@ -38,48 +39,53 @@
 </div>
 
 <footer class="row row-cols-5 py-5 border-top">
-    <div class="col">
-      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-      <p class="text-muted">© 2021</p>
-    </div>
-
+    
+    
     <div class="col">
 
     </div>
 
     <div class="col">
-      <h5>О проекте</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Что такое MyBook</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Правовая информация</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Документация</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Правообладателям</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Помощь</a></li>
-      </ul>
+        <h5>О проекте</h5>
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Что такое MyBook</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Правовая информация</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Документация</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Правообладателям</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Помощь</a></li>
+        </ul>
     </div>
 
     <div class="col">
-      <h5>О подписке</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Купить подписку</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Как оплатить</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Бесплатные книги</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ввести подарочный код</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Подарить подписку</a></li>
-      </ul>
+        <h5>О подписке</h5>
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Купить подписку</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Как оплатить</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Бесплатные книги</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ввести подарочный код</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Подарить подписку</a></li>
+        </ul>
     </div>
 
     <div class="col">
-      <h5>Другие проекты</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Издать свою книгу</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MyBook: Истории</a></li>
+        <h5>Другие проекты</h5>
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Издать свою книгу</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MyBook: Истории</a></li>
         
-      </ul>
+        </ul>
     </div>
-    </footer>
+</footer>
+<footer>
+<div class="d-flex justify-content-between py-4 my-4 border-top">
+    <p>© 2022 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+</div>
+</footer>
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
