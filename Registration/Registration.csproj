@@ -24,4 +24,11 @@
         <PackageReference Include="System.Linq" Version="4.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="Areas\Identity\32ico.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
