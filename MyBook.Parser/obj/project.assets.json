@@ -842,11 +842,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.3",
           "Microsoft.AspNetCore.SignalR": "1.1.0",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
-          "MyBook.Infrastructure": "1.0.0",
           "MyBook.SharedKernel": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.3"
         },
@@ -860,45 +860,12 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "MyBook.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.3",
-          "Microsoft.AspNetCore.SignalR": "1.1.0",
-          "Microsoft.EntityFrameworkCore": "6.0.3",
-          "Microsoft.Extensions.Identity.Stores": "6.0.3"
-        },
-        "compile": {
-          "bin/placeholder/MyBook.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyBook.Core.dll": {}
-        }
-      },
-      "MyBook.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.3",
-          "Microsoft.AspNetCore.SignalR": "1.1.0",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.3",
-          "MyBook.Core": "1.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.3"
-        },
-        "compile": {
-          "bin/placeholder/MyBook.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyBook.Infrastructure.dll": {}
-        }
-      },
       "MyBook.SharedKernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.SignalR": "1.1.0",
-          "MyBook.Core": "1.0.0"
+          "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj": "1.0.0",
+          "Microsoft.AspNetCore.SignalR": "1.1.0"
         },
         "compile": {
           "bin/placeholder/MyBook.SharedKernel.dll": {}
@@ -2537,16 +2504,6 @@
       "path": "../MyBook/MyBook.csproj",
       "msbuildProject": "../MyBook/MyBook.csproj"
     },
-    "MyBook.Core/1.0.0": {
-      "type": "project",
-      "path": "../MyBook.Core/MyBook.Core.csproj",
-      "msbuildProject": "../MyBook.Core/MyBook.Core.csproj"
-    },
-    "MyBook.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../MyBook.Infrastructure/MyBook.Infrastructure.csproj",
-      "msbuildProject": "../MyBook.Infrastructure/MyBook.Infrastructure.csproj"
-    },
     "MyBook.SharedKernel/1.0.0": {
       "type": "project",
       "path": "../MyBook.SharedKernel/MyBook.SharedKernel.csproj",
@@ -2555,10 +2512,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj",
+      "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
       "Microsoft.AspNetCore.SignalR >= 1.1.0",
-      "MyBook >= 1.0.0",
-      "MyBook.Core >= 1.0.0",
-      "MyBook.Infrastructure >= 1.0.0"
+      "MyBook >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2567,11 +2524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Parser\\MyBook.Parser.csproj",
+      "projectUniqueName": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Parser\\MyBook.Parser.csproj",
       "projectName": "MyBook.Parser",
-      "projectPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Parser\\MyBook.Parser.csproj",
+      "projectPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Parser\\MyBook.Parser.csproj",
       "packagesPath": "C:\\Users\\Aishat\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Parser\\obj\\",
+      "outputPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Parser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aishat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2588,14 +2545,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Core\\MyBook.Core.csproj": {
-              "projectPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Core\\MyBook.Core.csproj"
+            "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj": {
+              "projectPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj"
             },
-            "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj": {
-              "projectPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj"
+            "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj"
             },
-            "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook\\MyBook.csproj": {
-              "projectPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook\\MyBook.csproj"
+            "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook\\MyBook.csproj": {
+              "projectPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook\\MyBook.csproj"
             }
           }
         }
@@ -2633,5 +2590,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
