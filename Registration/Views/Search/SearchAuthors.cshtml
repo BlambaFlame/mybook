@@ -1,0 +1,25 @@
+﻿@model MyBook.ViewModels.SearchViewModel
+@{
+    Layout = "_SearchLayout";
+    ViewData["searchString"] = Model.SearchString;
+}
+<link rel="stylesheet" href="~/css/bookPreview.css">
+
+<div class="container">
+    <div class="d-flex align-items-center mt-5 justify-content-center">
+        <h1 class="h1 text-capitalize">Авторы по запросу</h1>
+        <h3 class="h3 m-0 ms-3 text-info">"@ViewData["searchAuthors"]"</h3>
+    </div>
+    <ul id="list">
+        @foreach (var author in Model.Authors)
+        {
+            <li>
+                @await Component.InvokeAsync("AuthorPreview",author)
+            </li>
+        }
+    </ul>
+    <div class="text-center">
+        <button class="btn btn-lg btn-primary w-100" id="showMoreAuthors" onclick="showMoreAuthors('@ViewData["searchAuthors"]')">Показать ещё</button>
+    </div>
+</div>
+<script src="~/js/serachAuthors.js"></script>

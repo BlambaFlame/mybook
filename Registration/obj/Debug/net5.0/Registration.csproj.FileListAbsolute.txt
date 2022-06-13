@@ -252,3 +252,15 @@ C:\Users\invis\Downloads\mybook-master\Registration\obj\Debug\net5.0\Registratio
 C:\Users\invis\Downloads\mybook-master\Registration\obj\Debug\net5.0\ref\Registration.dll
 C:\Users\invis\Downloads\mybook-master\Registration\obj\Debug\net5.0\Razor\Views\Subscription\Index.cshtml.g.cs
 E:\Documents\Study\ORIS_semester\New_MyBook\mybook\Registration\obj\Debug\net5.0\Razor\Views\Subscription\Index.cshtml.g.cs
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.csproj.AssemblyReference.cache
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.AssemblyInfoInputs.cache
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.AssemblyInfo.cs
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.csproj.CoreCompileInputs.cache
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.RazorAssemblyInfo.cache
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.RazorAssemblyInfo.cs
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.dll
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\refint\Registration.dll
+C:\Users\Aishat\Desktop\mybook\Registration\obj\Debug\net5.0\Registration.pdb

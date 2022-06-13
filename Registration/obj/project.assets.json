@@ -2608,11 +2608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\Study\\ORIS_semester\\New_MyBook\\mybook\\Registration\\Registration.csproj",
+      "projectUniqueName": "C:\\Users\\Aishat\\Desktop\\mybook\\Registration\\Registration.csproj",
       "projectName": "Registration",
-      "projectPath": "E:\\Documents\\Study\\ORIS_semester\\New_MyBook\\mybook\\Registration\\Registration.csproj",
+      "projectPath": "C:\\Users\\Aishat\\Desktop\\mybook\\Registration\\Registration.csproj",
       "packagesPath": "C:\\Users\\Aishat\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\Study\\ORIS_semester\\New_MyBook\\mybook\\Registration\\obj\\",
+      "outputPath": "C:\\Users\\Aishat\\Desktop\\mybook\\Registration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aishat\\AppData\\Roaming\\NuGet\\NuGet.Config",

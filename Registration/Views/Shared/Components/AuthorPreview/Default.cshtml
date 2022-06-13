@@ -1,0 +1,29 @@
+﻿@model MyBook.Entities.Author
+
+<div class="container">
+    <article class="postcard authorCard">
+        @{
+            var image = Model.ImgLinks?.FirstOrDefault()?.Url;
+            if (image == null)
+                image = "/assets/img/non.png";
+        }
+
+        <a class="postcard_img_link" asp-controller="Author" asp-action="Author" asp-route-authorId="@Model.AuthorId">
+            <img class="postcard_img" src="@image" id="authorPhotoPreview" alt="">
+        </a>
+        <div class="postcard_text">
+            <h3 class="h3 PreviewTitle">
+
+                <a asp-controller="Author" asp-action="Author" asp-route-authorId="@Model.AuthorId">
+                    <div class="me-4 Name">
+                        @Model.Name
+                    </div>
+                </a>
+            </h3>
+            <p class="card-text oneLineDisplayText text-secondary">
+                @Model.AuthorBooks.Count
+                Книг
+            </p>
+        </div>
+    </article>
+</div>

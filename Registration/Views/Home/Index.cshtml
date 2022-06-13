@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@* @model List<MyBook.Entities.Book> *@
+@model List<MyBook.Entities.Book>
 <section class="container">
     <div class="content_wrapper">
         <div class="inline_wrapper row">
@@ -83,9 +83,7 @@
                     <div class="slider_block">
                         <div class="customCarousel">
                             <h1 class="main_title_book ms-4 mb-4">Топ книги по скачиваниям</h1>
-                            @* @await Component.InvokeAsync("BooksCarousel", Model) *@
-                            <img class="img_Index"src="~/assets/img/books/kritica_Kant.jpg"  alt="Критика чистого разума"></img>
-                            <img class="img_Index"src="~/assets/img/books/brothers_Caramaz.jpg"  alt="Братья Карамазовы"></img>
+                            @await Component.InvokeAsync("BooksCarousel", Model)
                         </div>
                     </div>
                 </div>
@@ -286,11 +284,45 @@
                     <p>Сейчас у нас в коллекции более 383 000 книг. Из них 112 000 — это книги, которые можно читать бесплатно, достаточно зарегистрироваться. В каталог MyBook сейчас попадает вся коллекция изданий из книжного магазина ЛитРес, и мы постоянно работаем над тем, чтобы в каталоге появлялись всё новые и новые издательства и авторы.</p>
                     <p>Десятки тысяч книг — внушительное число, но это пока совсем немного по сравнению с сотнями тысяч книг, которые доступны только в бумажном виде. Если вы представляете издательство, которое хочет свои книги открыть для читателей по подписке, или вы — автор, который хочет попасть в библиотеку, минуя привычные издательства — напишите нам.</p>
                     <p>Если вы представляете правообладателя и у вас возникли вопросы по правам на книги и о распространении их через MyBook, задайте вопрос почтой, мы обязательно ответим.</p>
-
+                    <h3>Реквизиты компании</h3>
                 </div>
 
 
-                
+                <div class="content_wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div id="map" class="map" style="width: 500px; height: 400px">
+                            </div>
+                        </div>
+                        <div class="map_content col-lg-6">
+                            <div class="w-100 connection">
+                                <div>
+                                    <h6>ТЕЛЕФОНЫ</h6>
+                                    <pre>8-967-777-96-11   8-903-360-00-80</pre>
+                                </div>
+                                <div>
+                                    <h6>АДРЕС</h6>
+                                    <pre>г.Казань, пр-т. Ямашева, дом 15/2 этаж 4</pre>
+                                    <h6>E-MAIL</h6>
+                                    <pre>MyBook.kazan@gmail.com</pre>
+                                </div>
+                            </div>
+
+                            <div class="w-100 connection">
+                                <div>
+                                    <h6>ТЕЛЕФОНЫ</h6>
+                                    <pre>8-956-759-96-19   8-956-361-02-83</pre>
+                                </div>
+                                <div>
+                                    <h6>АДРЕС</h6>
+                                    <pre >г.Москва, пр-т. Победы 92/4"</pre>
+                                    <h6>E-MAIL</h6>
+                                    <pre>MyBook.moscow@gmail.com</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
