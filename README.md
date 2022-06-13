@@ -5,4 +5,4 @@
 
 Состав команды: Тричев Андрей, Закиров Айшат, Кучмезов Марат.
 
-Trello - https://trello.com/b/jKR19YP0/oris-semester-work
+Trello: https://trello.com/b/jKR19YP0/oris-semester-work
