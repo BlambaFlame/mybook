@@ -2,10 +2,6 @@ html {
   font-size: 14px;
 }
 
-.dark-theme{
-  
-}
-
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -188,9 +184,4 @@ button.accept-policy {
   -webkit-box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
-}
-.img_Index{
-  border-radius: 20px;
-  width: 200px;
-  height: 313px;
 }

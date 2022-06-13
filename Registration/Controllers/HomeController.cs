@@ -1,26 +1,63 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using MyBook.Models;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Registration.Models;
+using MyBook.Entities;
+using Repositories;
+using Microsoft.AspNetCore.SignalR;
+using MyBook.Infrastructure.Hubs;
+using MyBook.Core.Interfaces;
+using System.Security.Claims;
+using MyBook.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Identity;
 
-namespace Registration.Controllers
+namespace MyBook.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IGenericRepository<BookCenter> _bookCenterRepository;
+        private readonly INotificationService _notificationService;
+        private readonly EFUserSubscrRepository _userSubscrRepository;
+        private readonly EfBookRepository _bookRepository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IGenericRepository<BookCenter> bookCenterRepository, INotificationService notificationService, EFUserSubscrRepository userSubscrRepository,
+            EfBookRepository bookRepository)
         {
-            _logger = logger;
+            _bookCenterRepository = bookCenterRepository;
+            _notificationService = notificationService;
+            _userSubscrRepository = userSubscrRepository;
+            _bookRepository = bookRepository;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var books = _bookRepository.GetTopBooks().ToList();
+            return View(books);
+        }
+
+        public async Task<JsonResult> CheckUserSubscr()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return Json(true);
+            if (HttpContext.Session.Keys.Contains("isNotificated") && HttpContext.Session.GetString("isNotificated") == "true")
+                return Json(true);
+            var subscr = _userSubscrRepository.GetExpiredUserSubscrs(userId, 5);
+            if (subscr != null && subscr.Any())
+            {
+                var message = "В течение пяти дней у Вас истекают следующие подписки: ";
+                foreach (var subscrItem in subscr)
+                {
+                    message += subscrItem.Subscription?.Type.TypeName;
+                    if (subscrItem.Subscription?.Author != null)
+                        message += $" {subscrItem.Subscription?.Author.Name}";
+                    if (subscrItem.Subscription?.Genre != null)
+                        message += $" {subscrItem.Subscription?.Genre.Name}";
+                    message += ", ";
+                }
+                await _notificationService.NotifyClient(userId, "Обратите внимание", message);
+                HttpContext.Session.SetString("isNotificated", "true");
+            }
+            return Json(true);
         }
 
         public IActionResult Privacy()
@@ -28,10 +65,21 @@ namespace Registration.Controllers
             return View();
         }
 
+        public JsonResult GetBooksCenter()
+        {
+            var bookCenters = _bookCenterRepository.Get();
+            return Json(bookCenters);
+        }
+        public JsonResult GetBookCenter(string name)
+        {
+            var bookCenters = _bookCenterRepository.Get().Where(center => center.Name==name);
+            return Json(bookCenters);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
