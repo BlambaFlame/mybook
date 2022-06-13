@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vlbbu1WP4vs3cycu33GAKBC8zQp0EJji1uJB6LgvnmStl6B0GhJmS+JqPdSDKx+dpXwZAZP8xGa98Vg3q9Wohw==",
+  "dgSpecHash": "hzQHi2zuxSaOyNpkvjikJSRIffgibpctipP5xbwTRRDfC851mXgzQwSXJF6BwcjJvWcPsH2DzhGlxBH2j+ZvAA==",
   "success": false,
   "projectFilePath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook\\MyBook.csproj",
   "expectedPackageFiles": [
@@ -74,15 +74,6 @@
     "C:\\Users\\Aishat\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
     {
       "code": "NU1104",
       "level": "Error",

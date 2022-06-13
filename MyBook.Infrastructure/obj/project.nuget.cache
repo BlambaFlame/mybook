@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LoNTX2H+djEk/EOf1gJhaEBdndF+DT5K9nP6/DxQ1n6OyAfIwhm4iozXdMIp2l8sDiQ+j0CNR0TYe9Cu7W4kJw==",
-  "success": true,
-  "projectFilePath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
+  "dgSpecHash": "uC37glb61oPPC8EKng78qWLpGQMf5zfdF1rVxyKtAussoJdhkSi2jstxSN44tGS/90Wqi8yOWdQ+evrgouhDuw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aishat\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aishat\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -71,5 +71,15 @@
     "C:\\Users\\Aishat\\.nuget\\packages\\system.threading.channels\\4.5.0\\system.threading.channels.4.5.0.nupkg.sha512",
     "C:\\Users\\Aishat\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

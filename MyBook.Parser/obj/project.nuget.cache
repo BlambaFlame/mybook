@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "593ac88en+sXvCwq4LBJSIOSLKPjbj78mPMriPv+G4C46D2QeBqrBgoGhh4CHvU3VX5aujk1JTxzdLtkelkP2g==",
+  "dgSpecHash": "NMTVKVGEprtZ2mmqUqqwB9xtrGyxxIGMiCg73iyP+VjVmzUNrsf/If2f4AOh7B6b4QD5syWjGhII6RY6xIRU5g==",
   "success": false,
   "projectFilePath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Parser\\MyBook.Parser.csproj",
   "expectedPackageFiles": [
@@ -76,15 +76,6 @@
       "level": "Error",
       "message": "Unable to find project 'C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj'. Check that the project reference is valid and that the project file exists.",
       "libraryId": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
       "targetGraphs": [
         "net6.0"
       ]

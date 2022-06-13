@@ -32,3 +32,6 @@ E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.Infrastructure\obj\Debug\ne
 E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.Infrastructure\obj\Debug\net6.0\MyBook.Infrastructure.pdb
 E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.Infrastructure\obj\Debug\net6.0\MyBook.Infrastructure.genruntimeconfig.cache
 E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.Infrastructure\obj\Debug\net6.0\ref\MyBook.Infrastructure.dll
+C:\Users\Aishat\Desktop\mybook\MyBook.Infrastructure\obj\Debug\net6.0\MyBook.Infrastructure.dll
+C:\Users\Aishat\Desktop\mybook\MyBook.Infrastructure\obj\Debug\net6.0\refint\MyBook.Infrastructure.dll
+C:\Users\Aishat\Desktop\mybook\MyBook.Infrastructure\obj\Debug\net6.0\MyBook.Infrastructure.pdb
