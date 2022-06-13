@@ -24,11 +24,10 @@ namespace Registration.Data
         public virtual DbSet<DownloadLink> DownloadLinks { get; set; } = null!;
         public virtual DbSet<Genre> Genres { get; set; } = null!;
         public virtual DbSet<ImgLink> ImgLinks { get; set; } = null!;
+        public virtual DbSet<Subscription> Subscriptions { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-
             modelBuilder.Entity<Author>(entity =>
             {
                 entity.ToTable("author");
@@ -75,8 +74,7 @@ namespace Registration.Data
                 entity.ToTable("book_genre");
 
                 entity.Property(e => e.BookGenreId)
-                    .HasColumnName("book_genre_id")
-                    ;
+                    .HasColumnName("book_genre_id");
 
                 entity.HasOne(d => d.Book)
                     .WithMany(p => p.BookGenres);
@@ -120,6 +118,26 @@ namespace Registration.Data
                     .WithMany(p => p.ImgLinks)
                     .OnDelete(DeleteBehavior.Cascade);
             });
+
+            modelBuilder.HasPostgresEnum<SubscriptionType>();
+            modelBuilder.Entity<Subscription>(entity =>
+            {
+                entity.ToTable("subscription");
+
+                entity.HasKey(e => e.UserId);
+                entity.Property(e => e.UserId)
+                    .HasColumnName("user_id");
+
+                entity.Property(e => e.Type)
+                    .HasColumnName("type");
+
+                entity.Property(e => e.StartedAt)
+                    .HasColumnName("started_at");
+
+                entity.Property(e => e.EndsAt)
+                    .HasColumnName("ends_at");
+            });
+            
             base.OnModelCreating(modelBuilder);
         }
     }

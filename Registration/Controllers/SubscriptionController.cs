@@ -1,160 +1,49 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using MyBook.Entities;
-using MyBook.Infrastructure.Repositories;
-using MyBook.Models;
-using Repositories;
+﻿using System;
 using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Registration.Data;
+using Registration.Entities;
 
-namespace MyBook.Controllers
+namespace Registration.Controllers
 {
     public class SubscriptionController : Controller
     {
-        private readonly IGenericRepository<Author> _authorRepository;
-        private readonly IGenericRepository<Genre> _genreRepository;
-        private readonly IGenericRepository<MyBook.Entities.Type> _typeRepository;
-        private readonly EFUserRepository _userRepository;
+        private readonly ApplicationDbContext _context;
 
-
-        public SubscriptionController(IGenericRepository<Author> authorRepository, IGenericRepository<Genre> genreRepository,
-            IGenericRepository<MyBook.Entities.Type> typeRepository, EFUserRepository userRepository)
+        public SubscriptionController(ApplicationDbContext context)
         {
-            _authorRepository = authorRepository;
-            _genreRepository = genreRepository;
-            _typeRepository = typeRepository;
-            _userRepository = userRepository;
+            _context = context;
+        }
+        
+        // GET
+        public IActionResult Index()
+        {
+            return View();
         }
 
-        [HttpGet]
-        public IActionResult Subscription()
-        {
-            return View(new BuySubscrViewModel { Genres = GetGenres(), Authors = GetAuthors(), SubscrTypes = GetTypes() });
-        }
-
-        [HttpGet]
-        public IActionResult SubscrForGenre()
-        {
-            return RedirectToAction("Subscription");
-        }
-
-        [Authorize(Policy = "ReadersOnly")]
         [HttpPost]
-        public async Task<IActionResult> SubscrForGenre(string GenreName)
+        public async Task<IActionResult> Subscribe()
         {
-            var type = GetTypes().FirstOrDefault(it => it.TypeName == "Подписка на жанр");
-            var genre = _genreRepository.Get(it => it.Name == GenreName);
-            var model = new PayViewModel();
-            if (type != null)
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var hasSubscription = await _context.Subscriptions.FindAsync(userId);
+
+            if (hasSubscription != null)
             {
-                if ( genre == null || !genre.Any())
-                {
-                    var modalModel = new ModalsViewModel { ControllerName = "Subscription", ActionName = "Subscription" };
-                    return RedirectToAction("Error", "Modals", modalModel);
-                }
-                var user = await CheckSubscr(type.TypeId, genreId: genre.First().GenreId, authorId: null);
-                if(user == null )
-                    return RedirectToAction("SubscrExists", "Modals");
-                model = new PayViewModel
-                {
-                    UserId = user.Id,
-                    Period = 1,
-                    SpecsName = genre.First().Name,
-                    SpecsId = genre.First().GenreId,
-                    TypeId = type.TypeId,
-                    TypeName = type.TypeName,
-                    Price = type.Price,
-                };
-                return RedirectToAction("SubscriptionPay", "SubscriptionPay", model);
+                return BadRequest("Already subscribed");
             }
-            return RedirectToAction("SubscriptionPay", "SubscriptionPay", model);
-        }
 
-        [Authorize(Policy = "ReadersOnly")]
-        [HttpPost]
-        [HttpGet]
-        public async Task<IActionResult> SubscrForAuthor(string AuthorName)
-        {
-            if (AuthorName == null)
-                return RedirectToAction("Subscription");
-            var type = GetTypes().FirstOrDefault(it => it.TypeName == "Подписка на автора");
-            var author = _authorRepository.Get(it => it.Name == AuthorName);
-            var model = new PayViewModel();
-            if (type != null)
+            await _context.Subscriptions.AddAsync(new Subscription
             {
-                if (author == null || !author.Any())
-                {
-                    var modalModel = new ModalsViewModel { ControllerName = "Subscription", ActionName = "Subscription" };
-                    return RedirectToAction("Error", "Modals", modalModel);
-                }
-                var user = await CheckSubscr(type.TypeId, authorId: author.First().AuthorId, genreId: null);
-                if (user == null)
-                    return RedirectToAction("SubscrExists", "Modals");
-                model = new PayViewModel
-                {
-                    UserId = user.Id,
-                    Period = 1,
-                    SpecsName = author.First().Name,
-                    SpecsId = author.First().AuthorId,
-                    TypeId = type.TypeId,
-                    TypeName = type.TypeName,
-                    Price = type.Price,
-                };
-                return RedirectToAction("SubscriptionPay", "SubscriptionPay", model);
-            }
-            return RedirectToAction("SubscriptionPay", "SubscriptionPay", model);
-        }
+                UserId = userId,
+                Type = SubscriptionType.Premium,
+                StartedAt = DateTime.Now,
+                EndsAt = DateTime.Now.AddDays(7)
+            });
 
-        [Authorize(Policy = "ReadersOnly")]
-        public async Task<IActionResult> SubscrForPremium()
-        {
-            var type = GetTypes().FirstOrDefault(it => it.TypeName == "Премиум");
-            var model = new PayViewModel();
-            if (type != null)
-            {
-                var user = await CheckSubscr(type.TypeId, null, null);
-                if (user == null)
-                    return RedirectToAction("SubscrExists", "Modals");
-                model = new PayViewModel
-                {
-                    UserId = user.Id,
-                    Period = 1,
-                    SpecsName = null,
-                    SpecsId = null,
-                    TypeId = type.TypeId,
-                    TypeName = type.TypeName,
-                    Price = type.Price,
-                };
-                return RedirectToAction("SubscriptionPay", "SubscriptionPay", model);
-            }
-            return RedirectToAction("SubscriptionPay", "SubscriptionPay", model);
-        }
+            await _context.SaveChangesAsync();
 
-        private async Task<User?> CheckSubscr(int typeId, int? genreId, int? authorId)
-        {
-            var user = _userRepository.GetUserWithSubscr(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            if (user == null)
-                return null;
-            if (user.UserSubscrs == null || !(user.UserSubscrs.Any(it =>
-                it.Subscription.TypeId == typeId &&
-                ((genreId != null && it.Subscription.GenreId == genreId) || (authorId != null && it.Subscription.AuthorId == authorId) || it.Subscription.Type.TypeName == "Премиум"))))
-                return user;
-            else return null;
-        }
-
-        private List<Genre> GetGenres()
-        {
-            return _genreRepository.Get().ToList();
-        }
-
-        private List<MyBook.Entities.Type> GetTypes()
-        {
-            return _typeRepository.Get().ToList();
-        }
-
-        private List<Author> GetAuthors()
-        {
-            return _authorRepository.Get().ToList();
+            return Ok("User was subscribed");
         }
     }
 }
