@@ -28,6 +28,3 @@ E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.SharedKernel\obj\Debug\net6
 E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.SharedKernel\obj\Debug\net6.0\refint\MyBook.SharedKernel.dll
 E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.SharedKernel\obj\Debug\net6.0\MyBook.SharedKernel.pdb
 E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook.SharedKernel\obj\Debug\net6.0\ref\MyBook.SharedKernel.dll
-C:\Users\Aishat\Desktop\mybook\MyBook.SharedKernel\obj\Debug\net6.0\MyBook.SharedKernel.dll
-C:\Users\Aishat\Desktop\mybook\MyBook.SharedKernel\obj\Debug\net6.0\refint\MyBook.SharedKernel.dll
-C:\Users\Aishat\Desktop\mybook\MyBook.SharedKernel\obj\Debug\net6.0\MyBook.SharedKernel.pdb

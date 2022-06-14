@@ -8,285 +8,273 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyBook
 build_property.RootNamespace = MyBook
-build_property.ProjectDir = C:\Users\Aishat\Desktop\mybook\MyBook\
+build_property.ProjectDir = E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Aishat\Desktop\mybook\MyBook
+build_property.MSBuildProjectDirectory = E:\Documents\Study\ORIS_semester\MyBook_11009\MyBook
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Account/Login.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Account/Registration.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Account/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/AddAuthorModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/AddAuthorModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEFkZEF1dGhvck1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/AddBookCenterModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/AddBookCenterModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEFkZEJvb2tDZW50ZXJNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/AddBookModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/AddBookModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEFkZEJvb2tNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/AddSubscriptionModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/AddSubscriptionModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEFkZFN1YnNjcmlwdGlvbk1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/AddSubscriptionToUserModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/AddSubscriptionToUserModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEFkZFN1YnNjcmlwdGlvblRvVXNlck1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/EditAuthorModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/EditAuthorModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEVkaXRBdXRob3JNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/EditBookCenterModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/EditBookCenterModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEVkaXRCb29rQ2VudGVyTW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/EditBookModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/EditBookModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEVkaXRCb29rTW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/EditSubscriptionModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/EditSubscriptionModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEVkaXRTdWJzY3JpcHRpb25Nb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/Index.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/_EditAuthor.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/_EditAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXF9FZGl0QXV0aG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/_EditBook.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/_EditBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXF9FZGl0Qm9vay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/_EditBookCenter.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/_EditBookCenter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXF9FZGl0Qm9va0NlbnRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/_EditSubscription.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/_EditSubscription.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXF9FZGl0U3Vic2NyaXB0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/AdminProfile/_EditUser.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/AdminProfile/_EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9maWxlXF9FZGl0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Author/Author.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Author/Author.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEF1dGhvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Book/Book.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Book/Book.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/FreeBooks/FreeBooks.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/FreeBooks/FreeBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJlZUJvb2tzXEZyZWVCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Home/Index.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Home/Privacy.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Library/Index.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Library/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Modals/Delete.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Modals/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kYWxzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Modals/Error.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Modals/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kYWxzXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Modals/SubscrExists.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Modals/SubscrExists.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kYWxzXFN1YnNjckV4aXN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Modals/Successful.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Modals/Successful.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kYWxzXFN1Y2Nlc3NmdWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Modals/VkExists.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Modals/VkExists.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kYWxzXFZrRXhpc3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Partials/_BookComments.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Partials/_BookComments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0Jvb2tDb21tZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Partials/_BooksList.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Partials/_BooksList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0Jvb2tzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Partials/_Comment.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Partials/_Comment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0NvbW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Partials/_EditAuthorsList.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Partials/_EditAuthorsList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0VkaXRBdXRob3JzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Partials/_EditBooksList.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Partials/_EditBooksList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0VkaXRCb29rc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Partials/_EditUsersList.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Partials/_EditUsersList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0VkaXRVc2Vyc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Search/SearchAll.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Search/SearchAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Search/SearchAuthors.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Search/SearchAuthors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEF1dGhvcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Search/SearchBooks.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Search/SearchBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEJvb2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/AuthorPreview/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/AuthorPreview/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXV0aG9yUHJldmlld1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/AuthorsCarousel/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/AuthorsCarousel/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXV0aG9yc0Nhcm91c2VsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/AuthorSmallPreview/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/AuthorSmallPreview/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXV0aG9yU21hbGxQcmV2aWV3XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/BookEdit/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/BookEdit/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQm9va0VkaXRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/BookPreview/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/BookPreview/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQm9va1ByZXZpZXdcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/BooksCarousel/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/BooksCarousel/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQm9va3NDYXJvdXNlbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/BookSmallPreview/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/BookSmallPreview/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQm9va1NtYWxsUHJldmlld1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/EditAuthor/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/EditAuthor/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRWRpdEF1dGhvclxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/EditBook/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/EditBook/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRWRpdEJvb2tcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/EditUser/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/EditUser/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRWRpdFVzZXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Components/StarsRateResult/Default.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Components/StarsRateResult/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3RhcnNSYXRlUmVzdWx0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/Error.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/_Layout.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/_SearchLayout.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/_SearchLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/SubscriptionGift/SubscriptionGift.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/SubscriptionGift/SubscriptionGift.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uR2lmdFxTdWJzY3JpcHRpb25HaWZ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/SubscriptionPay/BookPay.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/SubscriptionPay/BookPay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uUGF5XEJvb2tQYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/SubscriptionPay/PaymentModal.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/SubscriptionPay/PaymentModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uUGF5XFBheW1lbnRNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/SubscriptionPay/SubscriptionPay.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/SubscriptionPay/SubscriptionPay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uUGF5XFN1YnNjcmlwdGlvblBheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Subscription/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Subscription/Subscription.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/Subscription/Subscription.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXFN1YnNjcmlwdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/TopBooks/Index.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/TopBooks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9wQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/UserProfile/Index.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/UserProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/UserProfile/_EditPassword.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/UserProfile/_EditPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcX0VkaXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/UserProfile/_EditProfile.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/UserProfile/_EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcX0VkaXRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/UserProfile/_EditSubscription.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/UserProfile/_EditSubscription.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcX0VkaXRTdWJzY3JpcHRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/UserProfile/_History.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/UserProfile/_History.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcX0hpc3RvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/UserProfile/_Recommendations.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/UserProfile/_Recommendations.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcX1JlY29tbWVuZGF0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/_ViewImports.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/_ViewStart.cshtml]
+[E:/Documents/Study/ORIS_semester/MyBook_11009/MyBook/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
