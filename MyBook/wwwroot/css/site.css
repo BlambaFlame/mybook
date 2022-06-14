@@ -170,7 +170,6 @@ button.accept-policy {
   list-style: none;
 }
 
-
 .authors_collection_grid{
   margin: 30px 0;
   display: grid;
@@ -185,8 +184,4 @@ button.accept-policy {
   -webkit-box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
-  
-}
-.dark{
-  color: black;
 }

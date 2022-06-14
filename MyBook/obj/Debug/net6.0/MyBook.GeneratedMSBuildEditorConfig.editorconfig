@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Aishat\Desktop\mybook\MyBook
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Aishat/Desktop/mybook/MyBook/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -219,10 +215,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Aishat/Desktop/mybook/MyBook/Views/Shared/_SearchLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -245,10 +237,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Aishat/Desktop/mybook/MyBook/Views/SubscriptionPay/SubscriptionPay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uUGF5XFN1YnNjcmlwdGlvblBheS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Aishat/Desktop/mybook/MyBook/Views/Subscription/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Aishat/Desktop/mybook/MyBook/Views/Subscription/Subscription.cshtml]
