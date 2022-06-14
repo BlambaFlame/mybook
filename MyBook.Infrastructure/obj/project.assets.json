@@ -2472,11 +2472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
       "projectName": "MyBook.Infrastructure",
-      "projectPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\MyBook.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Aishat\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aishat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2493,8 +2493,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Core\\MyBook.Core.csproj": {
-              "projectPath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.Core\\MyBook.Core.csproj"
+            "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj": {
+              "projectPath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.Core\\MyBook.Core.csproj"
             }
           }
         }

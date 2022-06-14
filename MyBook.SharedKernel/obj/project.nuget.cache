@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lo3/SyM+4HTGU7TpWormv6Ei0rKyr95NVMGPaafHCANu+vkbMQ9UjTVMZ2wUHk4Ei9DArkRbJ8l9Dg4OeZdxkQ==",
+  "dgSpecHash": "jEUgh+/Je7P9JlrzGGDFD0LLbn+PacG5k1OHo9C2Bm4gjMMOhifQQ0C0x7ffTPq8NCXqRGSnDI7JdVqrApjBBw==",
   "success": true,
-  "projectFilePath": "E:\\Documents\\Study\\ORIS_semester\\MyBook_11009\\MyBook.SharedKernel\\MyBook.SharedKernel.csproj",
+  "projectFilePath": "C:\\Users\\Aishat\\Desktop\\mybook\\MyBook.SharedKernel\\MyBook.SharedKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aishat\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Aishat\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
